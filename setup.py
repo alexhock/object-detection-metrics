@@ -8,7 +8,7 @@ from pkg_resources import Requirement
 from setuptools import find_packages, setup
 
 # Package meta-data.
-NAME = "odmetrics"
+NAME = "objdetecteval"
 DESCRIPTION = ""
 URL = "repo"
 EMAIL = ""
