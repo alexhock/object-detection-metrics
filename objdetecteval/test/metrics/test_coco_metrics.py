@@ -1,6 +1,6 @@
 from pytest import fixture, approx
 
-from eval.metrics.coco_metrics import (
+from objdetect.metrics.coco_metrics import (
     get_stats_at_annotation_level,
     conv_image_ids_to_coco,
     conv_class_labels_to_coco_cats,

@@ -10,7 +10,17 @@ To see a quick example of the functionality have a look at the [starter notebook
 
 ## Installation
 
-No library yet, just copy the eval folder to your project source root.
+    pip install git+https://github.com/alexhock/object-detection-metrics
+
+    from objdetecteval.metrics import (
+        image_metrics as im,
+        coco_metrics as cm
+    )
+
+Or
+
+    Clone and copy the objdetect folder to your project.
+
 
 ## Example usage
 

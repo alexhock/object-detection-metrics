@@ -1,12 +1,12 @@
 from pycocotools.coco import COCO
 from pycocotools.cocoeval import COCOeval
 from typing import List
-from eval.metrics.image_metrics import match_preds_to_targets
+from objdetecteval.metrics.image_metrics import match_preds_to_targets
 
 
 __all__ = ["get_stats_at_annotation_level", "get_coco_stats", "get_coco_from_dfs"]
 
-from eval.data.bbox_formats import convert_pascal_bbox_to_coco
+from objdetecteval.data.bbox_formats import convert_pascal_bbox_to_coco
 
 
 class AMLCOCO(COCO):

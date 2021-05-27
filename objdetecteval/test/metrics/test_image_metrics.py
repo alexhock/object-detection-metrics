@@ -2,7 +2,7 @@ import pandas as pd
 from pandas._testing import assert_frame_equal
 from pytest import fixture, approx
 
-from eval.metrics.image_metrics import (
+from objdetect.metrics.image_metrics import (
     get_inference_metrics,
     summarise_inference_metrics,
 )

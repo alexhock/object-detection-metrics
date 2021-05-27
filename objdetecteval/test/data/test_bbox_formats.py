@@ -2,7 +2,7 @@ from unittest.mock import MagicMock, Mock
 
 from pytest import fixture, mark
 
-from eval.data.bbox_formats import (
+from objdetecteval.data.bbox_formats import (
     convert_cxcywh_bbox_to_corner_values,
     convert_cxcywh_bbox_to_coco_format,
     convert_cxcywh_bbox_to_pascal_voc_format,
