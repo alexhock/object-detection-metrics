@@ -12,7 +12,7 @@ To see a quick example of the functionality have a look at the [starter notebook
 
     pip install git+https://github.com/alexhock/object-detection-metrics
 
-
+Imports:
 
     from objdetecteval.metrics import (
         image_metrics as im,
@@ -48,7 +48,6 @@ This makes it easy to plot:
 
     figsize = (5, 5)
     fontsize = 16
-    class_stats = class_summary_df.set_index("class")
 
     fig_confusion = (
         class_summary_df[["TP", "FP", "FN"]]
