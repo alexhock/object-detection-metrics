@@ -36,5 +36,10 @@ def main():
     fig_pr.savefig('./pr.png')
 
 
+    # get coco
+    res = cm.get_coco_from_dfs(preds_df, labels_df, False)
+    print(res)
+
+
 if __name__ == "__main__":
     main()
